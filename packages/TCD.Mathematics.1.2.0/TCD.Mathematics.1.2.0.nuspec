@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TCD.Mathematics</id>
+    <version>1.2.0</version>
+    <title>TCD.Mathematics</title>
+    <authors>Michael Osthege</authors>
+    <owners>Michael Osthege</owners>
+    <licenseUrl>http://opensource.org/licenses/ms-pl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NOTE: since v1.2.0 it's a Portable Class Library. Due to the nature of Portable Class Libraries, it's not possible to maintain the System.Windows.Media.Media3D namespace (and extending it). Instead all classes now orignate from TCD.Mathematics
+
+TCD.Mathematics provides classrs, which allow advanced calculations with points, vectors, lines and planes.
+
+The new classes:
+Vector3D
+Point3D
+Line3D
+Plane3D
+
+The Point3D extension methods:
+Vector3D.AsPoint3D()
+Point3D.AsVector3D()
+
+If you find any bugs, or miss a method, please let me know!</description>
+    <summary>TCD.Mathematics provides classes, which allow advanced calculations with points, vectors, lines and planes.</summary>
+    <releaseNotes>1.0.0 first public release. Line3D, Plane3D
+
+1.1.0 WinRT support, Point3D and Vector3D replacements (WinRT), intersect Plane3Ds (WinRT, .NET45)
+
+1.2.0 As Portable Class Library; everything in the TCD.Mathematics namespace</releaseNotes>
+    <copyright />
+    <language />
+    <tags>3D WPF Vector Line Plane TCD Net45 Math WinRT Windows 8</tags>
+  </metadata>
+</package>
