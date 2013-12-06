@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCD.Mathematics", "TCD.Math
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCD.Mathematics.Sample.WinRT", "TCD.Mathematics.Sample.WinRT\TCD.Mathematics.Sample.WinRT.csproj", "{54B0B740-EDDD-4D63-A17C-4F0BAC542E1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCD.Mathematics.WPF", "TCD.Mathematics.WPF\TCD.Mathematics.WPF.csproj", "{5DD47857-E0DC-472B-BF39-8D850DA0909D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCD.Mathematics.Sample.WPF", "TCD.Mathematics.Sample.WPF\TCD.Mathematics.Sample.WPF.csproj", "{D39758CB-28F8-45AA-B4E8-C219EE35D85E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,16 +55,16 @@ Global
 		{54B0B740-EDDD-4D63-A17C-4F0BAC542E1D}.Release|x86.ActiveCfg = Release|x86
 		{54B0B740-EDDD-4D63-A17C-4F0BAC542E1D}.Release|x86.Build.0 = Release|x86
 		{54B0B740-EDDD-4D63-A17C-4F0BAC542E1D}.Release|x86.Deploy.0 = Release|x86
-		{5DD47857-E0DC-472B-BF39-8D850DA0909D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DD47857-E0DC-472B-BF39-8D850DA0909D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DD47857-E0DC-472B-BF39-8D850DA0909D}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{5DD47857-E0DC-472B-BF39-8D850DA0909D}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{5DD47857-E0DC-472B-BF39-8D850DA0909D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{5DD47857-E0DC-472B-BF39-8D850DA0909D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DD47857-E0DC-472B-BF39-8D850DA0909D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5DD47857-E0DC-472B-BF39-8D850DA0909D}.Release|ARM.ActiveCfg = Release|Any CPU
-		{5DD47857-E0DC-472B-BF39-8D850DA0909D}.Release|x64.ActiveCfg = Release|Any CPU
-		{5DD47857-E0DC-472B-BF39-8D850DA0909D}.Release|x86.ActiveCfg = Release|Any CPU
+		{D39758CB-28F8-45AA-B4E8-C219EE35D85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39758CB-28F8-45AA-B4E8-C219EE35D85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39758CB-28F8-45AA-B4E8-C219EE35D85E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D39758CB-28F8-45AA-B4E8-C219EE35D85E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D39758CB-28F8-45AA-B4E8-C219EE35D85E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D39758CB-28F8-45AA-B4E8-C219EE35D85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39758CB-28F8-45AA-B4E8-C219EE35D85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39758CB-28F8-45AA-B4E8-C219EE35D85E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D39758CB-28F8-45AA-B4E8-C219EE35D85E}.Release|x64.ActiveCfg = Release|Any CPU
+		{D39758CB-28F8-45AA-B4E8-C219EE35D85E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
