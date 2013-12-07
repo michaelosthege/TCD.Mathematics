@@ -40,7 +40,14 @@ namespace TCD.Mathematics.Sample.WPF
 
             console.Text += "\n\nLine1                 : " + il + "\nLine1 (reconstructed) : " + il2;
 
-
+            //Calculate an angle between two Vectors
+            Point3D b = new Point3D(1,1,0);
+            Point3D a = new Point3D(0,0,0);
+            Point3D c = new Point3D(-1,1,0);
+            Vector3D aTob = b - a;
+            Vector3D aToc = c - a;
+            double degrees = Vector3D.AngleBetween(aTob, aToc);
+            console.Text += "\n\ndegrees: " + degrees;
         }
     }
 }

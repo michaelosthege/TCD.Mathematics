@@ -20,6 +20,16 @@ namespace TCD.Mathematics
             this.Z = z;
         }
 
+        /// <summary>
+        /// IMPORTANT: Because "==" checks for object equality, you should use .Equals() to check if two points have the same coordinates.
+        /// </summary>
+        /// <param name="v2"></param>
+        /// <returns></returns>
+        public bool Equals(Point3D p2)
+        {
+            return (this.X == p2.X && this.Y == p2.Y && this.Z == p2.Z);
+        }
+
         // Summary:
         //     Subtracts a TCD.Mathematics.Point3D structure from a TCD.Mathematics.Point3D
         //     structure and returns the result as a TCD.Mathematics.Vector3D

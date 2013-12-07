@@ -21,6 +21,16 @@ namespace TCD.Mathematics
         }
 
         /// <summary>
+        /// IMPORTANT: Because "==" checks for object equality, you should use .Equals() to check if two vectors have the same length && orientation.
+        /// </summary>
+        /// <param name="v2"></param>
+        /// <returns></returns>
+        public bool Equals(Vector3D v2)
+        {
+            return (this.X == v2.X && this.Y == v2.Y && this.Z == v2.Z);
+        }
+
+        /// <summary>
         /// Negates a TCD.Mathematics.Vector3D structure.
         /// </summary>
         /// <param name="vector">The TCD.Mathematics.Vector3D structure to negate.</param>
@@ -145,7 +155,9 @@ namespace TCD.Mathematics
         /// <returns>The angle in degrees needed to rotate vector1 into vector2.</returns>
         public static double AngleBetween(Vector3D vector1, Vector3D vector2)
         {
-            return Math.Acos(Vector3D.DotProduct(vector1, vector2));
+            Vector3D v1n = vector1.Normalized();
+            Vector3D v2n = vector2.Normalized();
+            return 180 * Math.Acos(Vector3D.DotProduct(v1n, v2n) / (Math.Sqrt(Vector3D.DotProduct(v1n, v1n)) * Math.Sqrt(Vector3D.DotProduct(v2n, v2n)))) / Math.PI;
         }  
         /// <summary>
         ///  Calculates the cross product of two TCD.Mathematics.Vector3D structures.

@@ -45,7 +45,7 @@
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
     <Reference Include="TCD.Mathematics">
-      <HintPath>..\packages\TCD.Mathematics.1.2.0\lib\portable-net4+sl4+wp7+win8\TCD.Mathematics.dll</HintPath>
+      <HintPath>..\packages\TCD.Mathematics.1.2.1\lib\portable-net4+sl4+wp7+win8\TCD.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
